@@ -20,7 +20,7 @@ Comments:
 I used sql queries in Dune Analytics database to create a simple user dataset by hand as I am not able to import any csv files.
 You can check my dashboard to see where I created my dataset on "Linea LXP Wallet Stats" query. (https://dune.com/biksan/lxp-stats)
 Original data from linea blockchain contains more than million rows. For better results, bigger datasets may be helpful.
-I am looking for a real dataset enhance this project.
+I am looking for a real dataset to enhance the project.
 
 ![Linea Dashboard](https://github.com/user-attachments/assets/f3dd41df-1eff-465b-8c2d-d6d4f5475c6c)
 
