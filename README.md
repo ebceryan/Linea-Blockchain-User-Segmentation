@@ -3,7 +3,10 @@ Linea is planning an airdrop campaign to award their users. They are distributin
 In this project, I segmented users using their activiy on the blockchain, including LXP points.
 
 Dataset Information
-wallet: Unique wallet of each user current lxp: LXP distributed to each wallet num_quests: Number of quests on_farcaster: Information if user have a farcaster account
+wallet: Unique wallet of each user 
+current lxp: LXP distributed to each wallet 
+num_quests: Number of quests 
+on_farcaster: Information if user have a farcaster account
 fid: Farcaster user id
 fname: Farcaster nickname
 connected_wallets: Other wallet address connected to wallet
