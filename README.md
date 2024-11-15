@@ -13,7 +13,8 @@ For k=7, there were 3 clusters with 1 user so I redefined cluster number as k=5.
 
 For k=5, there were 2 clusters with 1. Examining variables, I placed 2 clusters to the closest cluster and obtained 3 clusters as most active, active and normal users.
 
-![Blank 4 Panel Comic Strip](https://github.com/user-attachments/assets/e8b407f3-d08c-42d7-b00e-08f59300329e)
+![Fotoram io](https://github.com/user-attachments/assets/bf711790-fc08-4ca1-9df1-09d289406da4)
+
 
 Comments:
 I used sql queries in Dune Analytics database to create a simple user dataset by hand as I am not able to import any csv files.
