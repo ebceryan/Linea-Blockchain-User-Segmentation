@@ -13,10 +13,7 @@ For k=7, there were 3 clusters with 1 user so I redefined cluster number as k=5.
 
 For k=5, there were 2 clusters with 1. Examining variables, I placed 2 clusters to the closest cluster and obtained 3 clusters as most active, active and normal users.
 
-![current_lxp](https://github.com/user-attachments/assets/8e02d43d-e06e-424a-afda-4cc7cef1ecc6)
-![days_old_onchain](https://github.com/user-attachments/assets/c9e2e5c8-4a61-4bf0-80a9-c4c42179ce49)
-![dex_volume](https://github.com/user-attachments/assets/dd99f0a5-995c-403d-9915-61e9d15a4086)
-![num_onchain_tx](https://github.com/user-attachments/assets/081d174e-1533-4696-989a-81f280820238)
+![Blank 4 Panel Comic Strip](https://github.com/user-attachments/assets/e8b407f3-d08c-42d7-b00e-08f59300329e)
 
 Comments:
 I used sql queries in Dune Analytics database to create a simple user dataset by hand as I am not able to import any csv files.
@@ -24,5 +21,5 @@ You can check my dashboard to see where I created my dataset on "Linea LXP Walle
 Original data from linea blockchain contains more than million rows. That might be the reason I could not get real meaningful cluster distribution after elbow plot.
 I am looking for a real dataset enhance this project.
 
-
+![Linea Dashboard](https://github.com/user-attachments/assets/f3dd41df-1eff-465b-8c2d-d6d4f5475c6c)
 
