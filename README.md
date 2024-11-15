@@ -2,22 +2,7 @@ Linea is a scalable Layer 2 blockchain network built on Ethereum, designed to en
 Linea is planning an airdrop campaign to award their users. They are distributing Linea Voyage XP (LXP) tokens to user wallets, which is an ERC-20 token you can receive for participating in the Linea Voyage — a series of community events where you use various elements of the Linea ecosystem to help us test, grow, and build.
 In this project, I segmented users using their activiy on the blockchain, including LXP points.
 
-Dataset Information
-wallet: Unique wallet of each user 
-current lxp: LXP distributed to each wallet 
-num_quests: Number of quests 
-on_farcaster: Information if user have a farcaster account
-fid: Farcaster user id
-fname: Farcaster nickname
-connected_wallets: Other wallet address connected to wallet
-l14d_active_tier: ?
-num_followers: Number of followers
-num_onchain_txns: Count of transactions on linea
-days_old_onchain: Active days on linea
-nft_volume_usd: NFT trade volume on linea
-dex_volume_usd: Decentralized exchange trade volume on linea
-contracts_deployed: Number of contracts deployed on linea
-times_contracts_called: Number of contracts called on linea
+![image](https://github.com/user-attachments/assets/612b3f8f-47a7-42a6-962b-a0a3160f79b6)
 
 For customer segmentation, I selected the variables as "current lxp","dex_volume_usd","num_onchain_txns","days_old_onchain.
 Scaled these variables between 0 and 1 for k-means clustering.
