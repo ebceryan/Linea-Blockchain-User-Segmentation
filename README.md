@@ -20,7 +20,9 @@ For customer segmentation, I selected the variables as "current lxp","dex_volume
 Scaled these variables between 0 and 1 for k-means clustering.
 Elbow plot specified the optimum number of clusters as k=7.
 ![elbow_plot](https://github.com/user-attachments/assets/a1dc2ea7-e894-4800-81a3-a311ef911150)
+
 For k=7, there were 3 clusters with 1 user so I redefined cluster number as k=5.
+
 For k=5, there were 2 clusters with 1. Examining variables, I placed 2 clusters to the closest cluster and obtained 3 clusters as most active, active and normal users.
 
 ![current_lxp](https://github.com/user-attachments/assets/8e02d43d-e06e-424a-afda-4cc7cef1ecc6)
