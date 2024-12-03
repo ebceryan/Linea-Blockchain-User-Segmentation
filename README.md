@@ -16,13 +16,12 @@ FROM dune.dune.result_linea_lxp_holder_stats;
 
 ![image](https://github.com/user-attachments/assets/910a2b05-2b2a-4149-b66c-9060c2bcae85)
 
-## Tools
+### Tools
 - **Python:** My primary programming language for data analysis, user segmentation, modeling and visualisation.
 - **Pycharm:** My primary integrated development environment (IDE) used for programming in Python. 
 - **Dune Analytics:** The platform enabling queries to extract blockchain user data and creating dashboards.
 
-## Dataset 
-
+### Dataset 
 - **Wallet:** Unique wallet of each user
 - **Current LXP:** LXP distributed to each wallet
 - **Num Quests:** Number of quests completed
@@ -54,12 +53,12 @@ For final 3 clusters, cluster-wise variables are shown below:
 
 ![Fotoram io](https://github.com/user-attachments/assets/bf711790-fc08-4ca1-9df1-09d289406da4)
 
-## Creating a Dashboard for Linea Blockchain
+### Creating a Dashboard for Linea Blockchain
 
 In addition to user segmentation, I created a dashboard on Dune to observe crucial user statistics on Linea blockchain.
 This is not mandatory for this particular project. However, I wanted to show some key statistics for LXP distribution.
 
-### Linea Wallet LXP Stats ###
+#### Linea Wallet LXP Stats
 
 I used a simple query to investigate how LXP distributed among wallets. It is shown as "LXP Stats" on the dashboard.
 
@@ -90,6 +89,8 @@ FROM (
 GROUP BY lxp_range
 ORDER BY wallet_count;
 ```
+#### Dashboard
+
 ![Linea Dashboard](https://github.com/user-attachments/assets/f3dd41df-1eff-465b-8c2d-d6d4f5475c6c)
 
 ## Key Observations
